@@ -253,9 +253,9 @@ export const App = () => {
                               data-cy="SortIcon"
                               className={cn('fas', {
                                 'fa-sort': sortQuery !== value,
-                                'fa-sort-up': sortQuery === value && sortOrder,
                                 'fa-sort-down':
-                                  sortQuery === value && !sortOrder,
+                                  sortQuery === value && sortOrder,
+                                'fa-sort-up': sortQuery === value && !sortOrder,
                               })}
                             />
                           </span>
